@@ -26,29 +26,39 @@
         </div>
         <br>
         <ul class="nav nav-pills nav-stacked">
-          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="https://www.linkedin.com/in/andronic-tudor/">My career</a></li>
           <li><a href="usv.html">About USV</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li class="active"><a href="contact.html">Contact</a></li>
         </ul><br>
       </div>
 
       <div class="col-sm-9">
-        <h4><small>RECENT POSTS</small></h4>
         <hr>
-        <div class="blog-post-content">
-          <a href="first-post.html">
-            <h2>My first blog post</h2>
-          </a>
-          <h5><span class="glyphicon glyphicon-time"></span> Post by Andronic Tudor, April 15, 2021.</h5>
-          <img src="./media/images/profile.jpg" class="img-responsive blog-post-image" alt="post-picture" />
-          <p class="blog-description">My name is Andronic Tudor and I am studying...</p>
-          <br><br>
+        <div class="container contact-form">
+          <form method="post">
+            <h3>Contact me</h3>
+            <div class="row">
+              <div class="form-group">
+                <input type="text" name="txtName" class="form-control" placeholder="Your Name *" value="" />
+              </div>
+              <div class="form-group">
+                <input type="text" name="txtEmail" class="form-control" placeholder="Your Email *" value="" />
+              </div>
+              <div class="form-group">
+                <input type="text" name="txtPhone" class="form-control" placeholder="Your Phone Number *" value="" />
+              </div>
+              <div class="form-group">
+                <textarea name="txtMsg" class="form-control" placeholder="Your Message *" style="width: 100%; height: 150px;"></textarea>
+              </div>
+              <div class="form-group">
+                <input type="submit" name="btnSubmit" class="btnContact" value="Send Message" />
+              </div>
+            </div>
+          </form>
         </div>
-
       </div>
     </div>
-  </div>
 
 </body>
 
